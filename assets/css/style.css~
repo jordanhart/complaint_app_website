@@ -1,0 +1,83 @@
+/* You may use the following selectors, but it's not required. */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+    width: 960px;
+    margin: 0px auto;
+    padding:30px;
+    text-align: center;
+    
+}
+
+#thumbnail {
+
+}
+
+#thumbnail img {
+   width: 240px;
+}
+
+#header {
+    margin: 10px;
+    padding: 10px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#subheader {
+    margin: 10px;
+    padding: 10px;
+    font-size: 24px;
+    font-style: italic;
+}
+
+#description {
+    width: 480px;
+    margin: 0px auto;
+    font-size: 12px;
+    line-height: 2;
+    
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+
+#link {
+    padding: 10px 10px;
+    background-color: #4785dc;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.list-container {
+    background-color:#f5f5f5;
+    width: 480px;
+    margin: 10px auto;
+}
+
+.list-title {
+    font-size: 24px;
+    margin: 30px;
+    padding: 20px;
+    background-color:#f5f5f5;
+}
+
+.list-content {
+    
+    background-color:#f5f5f5;
+}
+
+.list-item {
+    margin: 10px auto;
+    padding: 10px;
+    background-color:white;
+    width: 360px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
